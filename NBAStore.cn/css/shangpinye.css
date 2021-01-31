@@ -1,0 +1,682 @@
+.header {
+    height: 92px;
+    background-color: #0a3665;
+}
+
+.header .header-con {
+    margin: 0 auto;
+    width: 1080px;
+    height: 92px;
+    background-color: #0a3665;
+    overflow: hidden;
+    background: url(../IMG/logo_cn.png) no-repeat 54px 31px;
+    background-size: 161px 44px;
+}
+
+.header .header-con ul {
+    padding-top: 10px;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+}
+
+.header .header-con ul li {
+    float: left;
+    border-left: 1px solid #fff;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.header .header-con ul li:nth-child(4) img {
+    width: 12px;
+    height: 11px;
+}
+
+.header .header-con ul li:nth-child(4) span {
+    color: red;
+}
+
+.header .header-con div {
+    height: 30px;
+    width: 488px;
+    border-radius: 2px;
+    margin: 40px auto 0;
+    /* background: url(IMG/fdj.png) no-repeat 458px 6px;
+    background-size: 19px 18px; */
+    /* background会覆盖background-color */
+    background-color: #fff;
+    position: relative;
+}
+
+.header .header-con div input {
+    border: none;
+    width: 450px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.header .header-con div img {
+    /* 位置不用定位怎么调整？ */
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+}
+
+
+/* .......导航....... */
+
+
+/* 一级导航 */
+
+.nav {
+    height: 26px;
+    background-color: #0669b2;
+}
+
+.nav .nav-con {
+    width: 1080px;
+    height: 26px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav .nav-con .select {
+    margin-left: 53px;
+    color: #fff;
+}
+
+.nav .nav-con .select li {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 11px;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.nav .nav-con .select li:nth-child(2) img {
+    width: 46px;
+    height: 21px;
+}
+
+
+/* 二级导航 */
+
+
+/* 第一个 */
+
+.nav .nav-con .select>li #bskt {
+    width: 290px;
+    background-color: #fff;
+    font-size: 12px;
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 10px;
+    z-index: 999;
+    padding: 0 20px 10px;
+    color: slategrey;
+    display: none;
+}
+
+.nav .nav-con .select>li #bskt li {
+    float: left;
+    width: 140px;
+    text-align: center;
+    margin-right: 0;
+    line-height: 30px;
+    height: 30px;
+}
+
+.nav .nav-con .select li ul li:hover {
+    color: blue;
+    background-color: rgb(123, 125, 128, .3);
+    cursor: pointer;
+}
+
+
+/* 第二个 */
+
+.nav .nav-con .select .brand {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 133px;
+    display: none;
+}
+
+
+/* 第四个 */
+
+.nav .nav-con .select .shirt {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 258px;
+    display: none;
+}
+
+
+/* 第五个 */
+
+.nav .nav-con .select .coat {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 307px;
+    display: none;
+}
+
+
+/* 第六个 */
+
+.nav .nav-con .select .pants {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 357px;
+    display: none;
+}
+
+
+/* 第七个 */
+
+.nav .nav-con .select .woman {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 403px;
+    display: none;
+}
+
+
+/* 第八个 */
+
+.nav .nav-con .select .children {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 476px;
+    display: none;
+}
+
+
+/* 第九个 */
+
+.nav .nav-con .select .shoe {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 546px;
+    display: none;
+}
+
+
+/* 第十个 */
+
+.nav .nav-con .select .ball {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 600px;
+    display: none;
+}
+
+
+/* 第十一个 */
+
+.nav .nav-con .select .acc {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 646px;
+    display: none;
+}
+
+
+/* 二级导航公共样式 */
+
+.nav .nav-con .select li ul {
+    padding: 5px 0 10px;
+    z-index: 999;
+    font-size: 12px;
+    width: 150px;
+    color: slategrey;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+.nav .nav-con .select li ul li {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-right: 0;
+}
+
+.nav .nav-con li ul li:hover {
+    color: blue;
+    background-color: rgb(123, 125, 128, .3);
+    cursor: pointer;
+}
+
+
+/* .....内容区.... */
+
+.main {
+    height: 1624px;
+}
+
+.main .main-con {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.main .main-con1 {
+    height: 25px;
+    background: url(../IMG/nav.png) repeat-x -170px -4px;
+    cursor: pointer;
+}
+
+.main .main-con2 {
+    width: 1080px;
+    height: 1599px;
+    /* background-color: rgb(154, 172, 189); */
+}
+
+.main .main-con2 .mainLeft {
+    width: 140px;
+    /* height: 720px; */
+    background-color: #393f48;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main .main-con2 .mainRight {
+    width: 860px;
+    height: 1559px;
+    float: left;
+    padding: 20px 20px;
+    /* background-color: rgb(126, 226, 176); */
+}
+
+
+/* 左侧样式 */
+
+.main .main-con2 .mainLeft h4 {
+    width: 140px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    border-bottom: 1px solid slategray;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.main .main-con2 .mainLeft .sort {
+    width: 140px;
+    font-size: 11px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.main .main-con2 .mainLeft .sort>li {
+    width: 140px;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+}
+
+.main .main-con2 .mainLeft .sort>li .jian {
+    font-size: 34px;
+    color: slategrey;
+    position: absolute;
+    right: 5px;
+    top: -7px;
+    cursor: pointer;
+}
+
+.main .main-con2 .mainLeft .small {
+    width: 140px;
+    font-size: 10px;
+    color: #fff;
+    padding-top: 10px;
+    display: none;
+}
+
+.main .main-con2 .mainLeft .small li {
+    width: 140px;
+    height: 20px;
+    font-size: 10px;
+    color: #fff;
+}
+
+.main .main-con2 .mainLeft .small li span {
+    height: 15px;
+    line-height: 15px;
+    font-size: 10px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.main .main-con2 .mainLeft .small li #check {
+    width: 10px;
+    height: 10px;
+}
+
+.main .main-con2 .mainLeft .last {
+    width: 140px;
+    padding-top: 20px;
+    margin: 18px 0;
+    border-top: 1px solid slategrey;
+}
+
+.main .main-con2 .mainLeft .last-con {
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    font-size: 10px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.main .main-con2 .mainLeft .last-con:hover {
+    color: blue;
+    background-color: #fff;
+}
+
+
+/* 右侧样式 */
+
+.main .main-con2 .mainRight .boxOne {
+    width: 860px;
+    height: 40px;
+    /* background-color: red; */
+    position: relative;
+}
+
+.main .main-con2 .mainRight .boxOne p {
+    font-size: 10px;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-weight: bold;
+}
+
+.main .main-con2 .mainRight .boxOne .ref {
+    font-size: 10px;
+    height: 35px;
+    width: 500px;
+    float: left;
+    padding-top: 10px;
+}
+
+.main .main-con2 .mainRight .boxOne .ref li {
+    height: 20px;
+    line-height: 20px;
+    padding: 0 18px;
+    float: left;
+    border-right: 1px solid slategrey;
+    color: slategrey;
+}
+
+.main .main-con2 .mainRight .boxOne .ref li:hover {
+    color: blue;
+}
+
+.main .main-con2 .mainRight .boxOne .count {
+    width: 148px;
+    height: 28px;
+    border: 1px solid slategrey;
+    border-radius: 3px;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
+}
+
+.main .main-con2 .mainRight .boxOne .count1 {
+    margin-left: 15px;
+}
+
+.main .main-con2 .mainRight .boxOne .count2 {
+    margin-left: 40px;
+    position: relative;
+}
+
+.main .main-con2 .mainRight .boxOne .count ul {
+    width: 150px;
+    border-right: 1px solid slategrey;
+    border-bottom: 1px solid slategrey;
+    display: none;
+    /* background-color: sandybrown; */
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.main .main-con2 .mainRight .boxOne .count ul li {
+    width: 150px;
+    height: 38px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+}
+
+.main .main-con2 .mainRight .boxOne .count ul li:hover {
+    background-color: slategrey;
+}
+
+.main .main-con2 .mainRight .boxTwo {
+    width: 860px;
+    height: 1539px;
+    position: relative;
+}
+
+.main .main-con2 .mainRight .boxTwo .com {
+    width: 860px;
+    height: 1499px;
+    margin-top: 10px;
+    z-index: 9999;
+}
+
+.main .main-con2 .mainRight .boxTwo .com li {
+    width: 152px;
+    height: 160px;
+    margin: 0 10px 45px;
+    float: left;
+    cursor: pointer;
+}
+
+.main .main-con2 .mainRight .boxTwo .com li img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .main-con2 .mainRight .boxTwo .com li h2 {
+    font-size: 7px;
+    line-height: 10px;
+    font-weight: normal;
+}
+
+.main .main-con2 .mainRight .boxTwo .com li p {
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 42px;
+}
+
+.main .main-con2 .mainRight .boxTwo .num {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    height: 40px;
+    padding: 0 40px;
+}
+
+.main .main-con2 .mainRight .boxTwo .num li {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10px;
+    color: black;
+    float: left;
+}
+
+.main .main-con2 .mainRight .boxTwo .num li:hover {
+    color: blue;
+}
+
+
+/* 底部 */
+
+.foot {
+    height: 290px;
+    background-color: #0a3665;
+}
+
+.foot .foot-con {
+    width: 974px;
+    height: 290px;
+    margin: 0 auto;
+    /* background-color: seagreen; */
+}
+
+.foot .foot-con-top {
+    height: 199px;
+    border-bottom: 1px solid #fff;
+    background: url(../IMG/foot1.png) no-repeat 2px 30px;
+    background-size: 162px 42px;
+    /* 背景图可以在padding区显示？ */
+    padding-left: 245px;
+}
+
+.foot .foot-con-top ul {
+    float: left;
+    font-size: 11px;
+    color: #fff;
+}
+
+.foot .foot-con-top ul:nth-child(1) {
+    margin-right: 130px;
+    line-height: 38px;
+    margin-top: 19px;
+}
+
+.foot .foot-con-top ul:nth-child(2) {
+    margin-right: 120px;
+    line-height: 20px;
+    margin-top: 28px;
+}
+
+.foot .foot-con-top ul:nth-child(2) img {
+    width: 38px;
+    height: 38px;
+    margin: 6px 0 13px 0;
+}
+
+.foot .foot-con-top ul:nth-child(3) {
+    line-height: 29px;
+}
+
+.foot .foot-con-top ul:nth-child(3) li:nth-child(1) {
+    line-height: 31px;
+    margin-top: 22px;
+}
+
+
+/* 二维码显示 */
+
+.foot .foot-con-top ul:nth-child(2) {
+    position: relative;
+}
+
+.foot .foot-con-top ul:nth-child(2) #img1 {
+    width: 75px;
+    height: 64px;
+    position: absolute;
+    top: 0;
+    left: 68px;
+    padding: 5px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.foot .foot-con-top ul:nth-child(2) #img1 img {
+    margin: 0;
+}
+
+.foot .foot-con-top ul:nth-child(2) #img2 {
+    width: 75px;
+    height: 64px;
+    position: absolute;
+    top: 94px;
+    left: 68px;
+    padding: 5px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.foot .foot-con-top ul:nth-child(2) #img2 img {
+    margin: 0;
+}
+
+.foot .foot-con-top ul:nth-child(2) #img1 img,
+.foot .foot-con-top ul:nth-child(2) #img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 底部下 */
+
+.foot .foot-con-bottom {
+    height: 90px;
+    /* background-color: silver; */
+    overflow: hidden;
+}
+
+.foot .foot-con-bottom a {
+    color: #fff;
+}
+
+.foot .foot-con-bottom ul {
+    height: 22px;
+    /* width: 900px; */
+    font-size: 10px;
+    margin-left: 210px;
+    margin-top: 9px;
+    /* padding区可以显示背景图 */
+    padding-left: 15px;
+    background: url(../IMG/foot3.png) no-repeat 0 4px;
+    background-size: 13px 15px;
+}
+
+.foot .foot-con-bottom ul li {
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin-right: 16px;
+}
+
+.foot .foot-con-bottom ul li:nth-child(1) span:nth-child(2) {
+    margin: 0 2px;
+}
+
+.foot .foot-con-bottom ul li span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.foot .foot-con-bottom p {
+    font-size: 9px;
+    line-height: 26px;
+    color: #fff;
+}

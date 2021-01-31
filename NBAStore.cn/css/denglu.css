@@ -1,0 +1,584 @@
+.header {
+    height: 92px;
+    background-color: #0a3665;
+}
+
+.header .header-con {
+    margin: 0 auto;
+    width: 1080px;
+    height: 92px;
+    background-color: #0a3665;
+    overflow: hidden;
+    background: url(../IMG/logo_cn.png) no-repeat 54px 31px;
+    background-size: 161px 44px;
+}
+
+.header .header-con li a {
+    color: #fff;
+}
+
+.header .header-con ul {
+    padding-top: 10px;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+}
+
+.header .header-con ul li {
+    float: left;
+    border-left: 1px solid #fff;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.header .header-con ul li:nth-child(4) img {
+    width: 12px;
+    height: 11px;
+}
+
+.header .header-con ul li:nth-child(4) span {
+    color: red;
+}
+
+.header .header-con div {
+    height: 30px;
+    width: 488px;
+    border-radius: 2px;
+    margin: 40px auto 0;
+    /* background: url(IMG/fdj.png) no-repeat 458px 6px;
+    background-size: 19px 18px; */
+    /* background会覆盖background-color */
+    background-color: #fff;
+    position: relative;
+}
+
+.header .header-con div input {
+    border: none;
+    width: 450px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.header .header-con div img {
+    /* 位置不用定位怎么调整？ */
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+}
+
+
+/* .......导航....... */
+
+
+/* 一级导航 */
+
+.nav {
+    height: 26px;
+    background-color: #0669b2;
+}
+
+.nav .nav-con {
+    width: 1080px;
+    height: 26px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav .nav-con .select {
+    margin-left: 53px;
+    color: #fff;
+}
+
+.nav .nav-con .select li {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 11px;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.nav .nav-con .select li:nth-child(2) img {
+    width: 46px;
+    height: 21px;
+}
+
+
+/* 二级导航 */
+
+
+/* 第一个 */
+
+.nav .nav-con .select>li #bskt {
+    width: 290px;
+    background-color: #fff;
+    font-size: 12px;
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 10px;
+    z-index: 999;
+    padding: 0 20px 10px;
+    color: slategrey;
+    display: none;
+}
+
+.nav .nav-con .select>li #bskt li {
+    float: left;
+    width: 140px;
+    text-align: center;
+    margin-right: 0;
+    line-height: 30px;
+    height: 30px;
+}
+
+.nav .nav-con .select li ul li:hover {
+    color: blue;
+    background-color: rgb(123, 125, 128, .3);
+    cursor: pointer;
+}
+
+
+/* 第二个 */
+
+.nav .nav-con .select .brand {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 133px;
+    display: none;
+}
+
+
+/* 第四个 */
+
+.nav .nav-con .select .shirt {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 258px;
+    display: none;
+}
+
+
+/* 第五个 */
+
+.nav .nav-con .select .coat {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 307px;
+    display: none;
+}
+
+
+/* 第六个 */
+
+.nav .nav-con .select .pants {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 357px;
+    display: none;
+}
+
+
+/* 第七个 */
+
+.nav .nav-con .select .woman {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 403px;
+    display: none;
+}
+
+
+/* 第八个 */
+
+.nav .nav-con .select .children {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 476px;
+    display: none;
+}
+
+
+/* 第九个 */
+
+.nav .nav-con .select .shoe {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 546px;
+    display: none;
+}
+
+
+/* 第十个 */
+
+.nav .nav-con .select .ball {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 600px;
+    display: none;
+}
+
+
+/* 第十一个 */
+
+.nav .nav-con .select .acc {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 646px;
+    display: none;
+}
+
+
+/* 二级导航公共样式 */
+
+.nav .nav-con .select li ul {
+    padding: 5px 0 10px;
+    z-index: 999;
+    font-size: 12px;
+    width: 150px;
+    color: slategrey;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+.nav .nav-con .select li ul li {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-right: 0;
+}
+
+.nav .nav-con li ul li:hover {
+    color: blue;
+    background-color: rgb(123, 125, 128, .3);
+    cursor: pointer;
+}
+
+
+/* .....内容区.... */
+
+.content {
+    height: 500px;
+    background-color: #fff;
+}
+
+.content .content-con {
+    width: 500px;
+    height: 400px;
+    margin: 10px auto;
+    /* background-color: slategray; */
+}
+
+.content .content-con h2 {
+    color: rgba(68, 68, 228, 0.993);
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.content .content-con h5 {
+    color: rgba(68, 68, 228, 0.8888);
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.content .content-con p {
+    font-size: 10px;
+    line-height: 18px;
+    height: 18px;
+    color: #939090;
+}
+
+.content .content-con .box {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 10px;
+    color: rgb(42, 41, 41);
+}
+
+.content .content-con .phone1 {
+    width: 100px;
+    height: 50px;
+    /* background-color: springgreen; */
+    float: left;
+}
+
+.content .content-con .phone1-one {
+    color: blue;
+}
+
+.content .content-con .phone2 {
+    height: 25px;
+    width: 180px;
+    float: left;
+    border: 1px solid slategrey;
+    border-radius: 2px;
+}
+
+.content .content-con .phone3 {
+    width: 40px;
+    height: 50px;
+    float: left;
+    padding-left: 60px;
+}
+
+.content .content-con input {
+    width: 170px;
+    height: 25px;
+    border: none;
+    margin-left: 5px;
+}
+
+.content .content-con .box-1 {
+    margin-left: 100px;
+    border-bottom: 1px solid rgb(42, 41, 41);
+    color: rgb(42, 41, 41);
+}
+
+.content .content-con #check {
+    width: 10px;
+    height: 10px;
+    margin-left: 75px;
+}
+
+.content .content-con #reg {
+    background-color: rgb(151, 151, 236);
+}
+
+.content .content-con .click {
+    width: 300px;
+    height: 30px;
+    font-size: 11px;
+}
+
+.content .content-con .click p {
+    width: 60px;
+    height: 30px;
+    background-color: rgb(142, 142, 233);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.content .content-con .click p:hover {
+    background-color: rgb(81, 81, 197);
+    cursor: pointer;
+}
+
+
+/* hover效果为什么加不到第一个p标签上？？？ */
+
+.content .content-con .click #reg:hover {
+    background-color: rgb(81, 81, 197);
+    cursor: pointer;
+}
+
+.content .content-con .click #reg {
+    float: left;
+    margin-left: 98px;
+}
+
+.content .content-con .click #sig {
+    float: left;
+    margin-left: 50px;
+}
+
+.content .content-con .else {
+    width: 300px;
+    height: 120px;
+    /* background-color: springgreen; */
+}
+
+.content .content-con .else p {
+    width: 300px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 40px;
+    color: rgb(42, 41, 41);
+}
+
+.content .content-con .else ul {
+    width: 300px;
+    height: 50px;
+    padding-left: 50px;
+}
+
+.content .content-con .else ul li {
+    width: 20px;
+    height: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+
+/* 底部 */
+
+.foot {
+    height: 290px;
+    background-color: #0a3665;
+}
+
+.foot .foot-con {
+    width: 974px;
+    height: 290px;
+    margin: 0 auto;
+    /* background-color: seagreen; */
+}
+
+.foot .foot-con-top {
+    height: 199px;
+    border-bottom: 1px solid #fff;
+    background: url(../IMG/foot1.png) no-repeat 2px 30px;
+    background-size: 162px 42px;
+    /* 背景图可以在padding区显示？ */
+    padding-left: 245px;
+}
+
+.foot .foot-con-top ul {
+    float: left;
+    font-size: 11px;
+    color: #fff;
+}
+
+.foot .foot-con-top ul:nth-child(1) {
+    margin-right: 130px;
+    line-height: 38px;
+    margin-top: 19px;
+}
+
+.foot .foot-con-top ul:nth-child(2) {
+    margin-right: 120px;
+    line-height: 20px;
+    margin-top: 28px;
+}
+
+.foot .foot-con-top ul:nth-child(2) img {
+    width: 38px;
+    height: 38px;
+    margin: 6px 0 13px 0;
+}
+
+.foot .foot-con-top ul:nth-child(3) {
+    line-height: 29px;
+}
+
+.foot .foot-con-top ul:nth-child(3) li:nth-child(1) {
+    line-height: 31px;
+    margin-top: 22px;
+}
+
+
+/* 二维码显示 */
+
+.foot .foot-con-top ul:nth-child(2) {
+    position: relative;
+}
+
+.foot .foot-con-top ul:nth-child(2) #img1 {
+    width: 75px;
+    height: 64px;
+    position: absolute;
+    top: 0;
+    left: 68px;
+    padding: 5px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.foot .foot-con-top ul:nth-child(2) #img1 img {
+    margin: 0;
+}
+
+.foot .foot-con-top ul:nth-child(2) #img2 {
+    width: 75px;
+    height: 64px;
+    position: absolute;
+    top: 94px;
+    left: 68px;
+    padding: 5px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.foot .foot-con-top ul:nth-child(2) #img2 img {
+    margin: 0;
+}
+
+.foot .foot-con-top ul:nth-child(2) #img1 img,
+.foot .foot-con-top ul:nth-child(2) #img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 底部下 */
+
+.foot .foot-con-bottom {
+    height: 90px;
+    /* background-color: silver; */
+    overflow: hidden;
+}
+
+.foot .foot-con-bottom a {
+    color: #fff;
+}
+
+.foot .foot-con-bottom ul {
+    height: 22px;
+    /* width: 900px; */
+    font-size: 10px;
+    margin-left: 210px;
+    margin-top: 9px;
+    /* padding区可以显示背景图 */
+    padding-left: 15px;
+    background: url(../IMG/foot3.png) no-repeat 0 4px;
+    background-size: 13px 15px;
+}
+
+.foot .foot-con-bottom ul li {
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin-right: 16px;
+}
+
+.foot .foot-con-bottom ul li:nth-child(1) span:nth-child(2) {
+    margin: 0 2px;
+}
+
+.foot .foot-con-bottom ul li span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.foot .foot-con-bottom p {
+    font-size: 9px;
+    line-height: 26px;
+    color: #fff;
+}

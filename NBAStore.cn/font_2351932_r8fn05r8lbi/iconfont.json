@@ -1,0 +1,30 @@
+{
+  "id": "2351932",
+  "name": "nba store",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6884480",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12178015",
+      "name": "新浪微博",
+      "font_class": "weibo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "19472168",
+      "name": "支 付 宝",
+      "font_class": "zhifubao",
+      "unicode": "e723",
+      "unicode_decimal": 59171
+    }
+  ]
+}

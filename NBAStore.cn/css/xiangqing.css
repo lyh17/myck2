@@ -1,0 +1,882 @@
+.header {
+    height: 92px;
+    background-color: #0a3665;
+}
+
+.header .header-con {
+    margin: 0 auto;
+    width: 1080px;
+    height: 92px;
+    background-color: #0a3665;
+    overflow: hidden;
+    background: url(../IMG/logo_cn.png) no-repeat 54px 31px;
+    background-size: 161px 44px;
+}
+
+.header .header-con ul {
+    padding-top: 10px;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+}
+
+.header .header-con ul li {
+    float: left;
+    border-left: 1px solid #fff;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.header .header-con ul li:nth-child(4) img {
+    width: 12px;
+    height: 11px;
+}
+
+.header .header-con ul li:nth-child(4) span {
+    color: red;
+}
+
+.header .header-con div {
+    height: 30px;
+    width: 488px;
+    border-radius: 2px;
+    margin: 40px auto 0;
+    /* background: url(IMG/fdj.png) no-repeat 458px 6px;
+    background-size: 19px 18px; */
+    /* background会覆盖background-color */
+    background-color: #fff;
+    position: relative;
+}
+
+.header .header-con div input {
+    border: none;
+    width: 450px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.header .header-con div img {
+    /* 位置不用定位怎么调整？ */
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+}
+
+
+/* .......导航....... */
+
+
+/* 一级导航 */
+
+.nav {
+    height: 26px;
+    background-color: #0669b2;
+}
+
+.nav .nav-con {
+    width: 1080px;
+    height: 26px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav .nav-con .select {
+    margin-left: 53px;
+    color: #fff;
+}
+
+.nav .nav-con .select li {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 11px;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.nav .nav-con .select li:nth-child(2) img {
+    width: 46px;
+    height: 21px;
+}
+
+
+/* 二级导航 */
+
+
+/* 第一个 */
+
+.nav .nav-con .select>li #bskt {
+    width: 290px;
+    background-color: #fff;
+    font-size: 12px;
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 10px;
+    z-index: 999;
+    padding: 0 20px 10px;
+    color: slategrey;
+    display: none;
+}
+
+.nav .nav-con .select>li #bskt li {
+    float: left;
+    width: 140px;
+    text-align: center;
+    margin-right: 0;
+    line-height: 30px;
+    height: 30px;
+}
+
+.nav .nav-con .select li ul li:hover {
+    color: blue;
+    background-color: rgb(123, 125, 128, .3);
+    cursor: pointer;
+}
+
+
+/* 第二个 */
+
+.nav .nav-con .select .brand {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 133px;
+    display: none;
+}
+
+
+/* 第四个 */
+
+.nav .nav-con .select .shirt {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 258px;
+    display: none;
+}
+
+
+/* 第五个 */
+
+.nav .nav-con .select .coat {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 307px;
+    display: none;
+}
+
+
+/* 第六个 */
+
+.nav .nav-con .select .pants {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 357px;
+    display: none;
+}
+
+
+/* 第七个 */
+
+.nav .nav-con .select .woman {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 403px;
+    display: none;
+}
+
+
+/* 第八个 */
+
+.nav .nav-con .select .children {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 476px;
+    display: none;
+}
+
+
+/* 第九个 */
+
+.nav .nav-con .select .shoe {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 546px;
+    display: none;
+}
+
+
+/* 第十个 */
+
+.nav .nav-con .select .ball {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 600px;
+    display: none;
+}
+
+
+/* 第十一个 */
+
+.nav .nav-con .select .acc {
+    /* 不占位 */
+    position: absolute;
+    top: 26px;
+    left: 646px;
+    display: none;
+}
+
+
+/* 二级导航公共样式 */
+
+.nav .nav-con .select li ul {
+    padding: 5px 0 10px;
+    z-index: 999;
+    font-size: 12px;
+    width: 150px;
+    color: slategrey;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+.nav .nav-con .select li ul li {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-right: 0;
+}
+
+.nav .nav-con li ul li:hover {
+    color: blue;
+    background-color: rgb(123, 125, 128, .3);
+    cursor: pointer;
+}
+
+
+/* .....内容区.... */
+
+.main {
+    height: 1180px;
+}
+
+.main .main-con {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.main .main-con1 {
+    height: 25px;
+    background: url(../IMG/nav.png) repeat-x -170px -4px;
+    cursor: pointer;
+}
+
+.main .main-con .goods {
+    width: 972px;
+    height: 500px;
+    /* background-color: lemonchiffon; */
+    padding: 0 54px 0;
+}
+
+.main .main-con .goods p {
+    width: 100%;
+    height: 35px;
+    font-size: 10px;
+    padding-top: 15px;
+}
+
+.main .main-con .goods a {
+    color: black;
+}
+
+.main .main-con .goods span {
+    margin: 0 10px;
+}
+
+.main .main-con .goods .gaine {
+    width: 100%;
+    height: 430px;
+    /* background-color: skyblue; */
+    overflow: hidden;
+    position: relative;
+}
+
+.main .main-con .goods .gaine1 {
+    width: 80px;
+    height: 350px;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-right: 20px;
+    float: left;
+}
+
+.main .main-con .goods .gaine1-con {
+    width: 80px;
+    height: 450px;
+}
+
+.main .main-con .goods .gaine1-con li {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.main .main-con .goods .gaine1-con li img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .main-con .goods .gaine #prev {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 7px;
+    left: 24px;
+    transform: rotateZ(90deg);
+}
+
+.main .main-con .goods .gaine #next {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 7px;
+    left: 24px;
+    transform: rotateZ(90deg);
+}
+
+
+/* 放大镜 */
+
+.main .main-con .goods .gaine2 {
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    float: left;
+    position: relative;
+}
+
+.main .main-con .goods .gaine2 .bigImg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main .main-con .goods .gaine2 .glass {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    position: absolute;
+    right: -370px;
+    top: 0;
+    display: none;
+}
+
+.main .main-con .goods .gaine2 .glass img {
+    width: 800px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.main .main-con .goods .gaine2 .mask {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(155, 155, 155, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    /* ? */
+    pointer-events: none;
+    cursor: pointer;
+}
+
+
+/* ................. */
+
+.main .main-con .goods .gaine3 {
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    /* background-color: sienna; */
+    float: left;
+}
+
+.main .main-con .goods .gaine3 span {
+    font-size: 10px;
+    color: rgb(140, 167, 194);
+    margin-left: 0;
+}
+
+.main .main-con .goods .gaine3 p {
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    color: black;
+}
+
+.main .main-con .goods .gaine3 .pre {
+    padding-top: 15px;
+    font-size: 20px;
+    color: blue;
+    border-bottom: 1px solid slategrey;
+}
+
+.main .main-con .goods .gaine3 .col {
+    margin-top: 15px;
+    height: 30px;
+}
+
+.main .main-con .goods .gaine3 .col li {
+    height: 30px;
+    width: 35px;
+    line-height: 30px;
+    font-size: 10px;
+    color: rgb(58, 51, 51);
+    float: left;
+    margin-left: 5px;
+}
+
+.main .main-con .goods .gaine3 .col li:nth-child(2) {
+    background-color: black;
+    height: 28px;
+    width: 33px;
+    border: 1px solid slategrey;
+    float: left;
+}
+
+.main .main-con .goods .gaine3 .siz {
+    margin-top: 15px;
+    height: 30px;
+}
+
+.main .main-con .goods .gaine3 .siz li {
+    height: 28px;
+    width: 33px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(58, 51, 51);
+    float: left;
+    border: 1px solid slategrey;
+    margin-left: 5px;
+}
+
+.main .main-con .goods .gaine3 .siz li:nth-child(1) {
+    border: none;
+}
+
+.main .main-con .goods .gaine3 .siz li:nth-child(7) {
+    width: 50px;
+}
+
+.main .main-con .goods .gaine3 .nub {
+    margin-top: 15px;
+    height: 30px;
+}
+
+.main .main-con .goods .gaine3 .nub li {
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(58, 51, 51);
+    float: left;
+    border: 1px solid slategrey;
+    margin-left: 5px;
+}
+
+.main .main-con .goods .gaine3 .nub li:nth-child(1) {
+    width: 35px;
+    border: none;
+}
+
+.main .main-con .goods .gaine3 .nub li:nth-child(2) {
+    color: #fff;
+    background-color: slategrey;
+}
+
+.main .main-con .goods .gaine3 .nub li:nth-child(4) {
+    color: #fff;
+    background-color: rgb(65, 65, 161);
+}
+
+.main .main-con .goods .gaine3 .do {
+    margin-top: 15px;
+    height: 30px;
+}
+
+.main .main-con .goods .gaine3 .do li {
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.main .main-con .goods .gaine3 .do li:nth-child(1) {
+    background-color: rgb(136, 49, 49);
+}
+
+.main .main-con .goods .gaine3 .do li:nth-child(2) {
+    background-color: rgb(53, 53, 143);
+}
+
+.main .main-con .goods .gaine3 .do li:nth-child(1):hover {
+    background-color: rgb(226, 134, 134);
+}
+
+.main .main-con .goods .gaine3 .do li:nth-child(2):hover {
+    background-color: rgb(135, 135, 228);
+}
+
+
+/* .main .main-con .goods .gaine3 .aa {
+    font-size: 8px;
+    font-weight: normal;
+    padding-top: 10px;
+    color: black;
+} */
+
+
+/* .......... */
+
+.main .main-con .details {
+    width: 972px;
+    height: 380px;
+    margin-bottom: 20px;
+    /* background-color: lightseagreen; */
+    padding: 0 54px 0;
+}
+
+.main .main-con .details h4 {
+    height: 60px;
+    line-height: 60px;
+    color: blue;
+}
+
+.main .main-con .details p {
+    height: 20px;
+    line-height: 20px;
+    color: black;
+    font-size: 10px;
+}
+
+.main .main-con .details ul {
+    padding-left: 30px;
+    list-style-type: disc;
+}
+
+.main .main-con .details ul li {
+    font-size: 10px;
+    color: black;
+}
+
+
+/* 、、、、、、、、、、 */
+
+.main .main-con2 .main-con2-5 {
+    height: 12px;
+    width: 100%;
+    /* 此处加会撑大盒子 */
+    /* padding: 0 48px; */
+    /* background-color: seagreen; */
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.main .main-con2 .main-con2-5 h2 {
+    height: 12px;
+    line-height: 12px;
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999;
+    background-color: #fff;
+}
+
+.main .main-con2 .main-con2-5 p {
+    width: 877px;
+    height: 1px;
+    background-color: #a7a9ac;
+    margin-left: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+/* 第二个轮播图 */
+
+.main .main-con2 .main-con2-6 {
+    width: 100%;
+    height: 244px;
+    /* background-color: seagreen; */
+}
+
+.main .main-con2-6 .slide {
+    width: 877px;
+    height: 244px;
+    margin-left: 50px;
+    /* background-color: slategrey; */
+    overflow: hidden;
+    position: relative;
+}
+
+.main .main-con2-6 .slide-con {
+    width: 815px;
+    height: 244px;
+    margin: 0 auto;
+    /* background-color: rosybrown; */
+    position: relative;
+    overflow: hidden;
+}
+
+.main .main-con2-6 .slide-con ul {
+    width: 2000px;
+    height: 244px;
+    /* background-color: springgreen; */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.main .main-con2-6 .slide-con li {
+    width: 150px;
+    height: 244px;
+    float: left;
+    margin-right: 17px;
+    position: relative;
+}
+
+
+/* 不取消最后一张和插入的第一张会没有间距 */
+
+
+/* .main .main-con2-6 .slide-con li.lastLi {
+    margin-right: 0;
+} */
+
+.main .main-con2-6 .slide-con li img {
+    width: 100%;
+    height: 150px;
+}
+
+.main .main-con2-6 .slide-con li h2 {
+    font-size: 7px;
+    line-height: 10px;
+    font-weight: normal;
+}
+
+.main .main-con2-6 .slide-con li p {
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 42px;
+}
+
+.main .main-con2-6 .slide-con li p .price-dis {
+    color: red;
+}
+
+.main .main-con2-6 .slide-con li p span:nth-child(2) {
+    color: #58595b;
+    text-decoration: line-through;
+}
+
+
+/* 箭头 */
+
+.main .main-con2-6 .slide #left,
+.main .main-con2-6 .slide #right {
+    width: 20px;
+    height: 46px;
+    position: absolute;
+    opacity: .4;
+    transition: all .5s;
+}
+
+.main .main-con2-6 .slide #left:hover,
+.main .main-con2-6 .slide #right:hover {
+    opacity: 1;
+    /* 放大会导致图片下移，如何让解决 */
+    /* transform: scale(1.1); */
+}
+
+.main .main-con2-6 .slide #left {
+    top: 40%;
+    left: 2px;
+    transform: translate(0, -50%);
+}
+
+.main .main-con2-6 .slide #right {
+    top: 40%;
+    right: 2px;
+    transform: translate(0, -50%);
+}
+
+
+/* 底部 */
+
+.foot {
+    height: 290px;
+    background-color: #0a3665;
+}
+
+.foot .foot-con {
+    width: 974px;
+    height: 290px;
+    margin: 0 auto;
+    /* background-color: seagreen; */
+}
+
+.foot .foot-con-top {
+    height: 199px;
+    border-bottom: 1px solid #fff;
+    background: url(../IMG/foot1.png) no-repeat 2px 30px;
+    background-size: 162px 42px;
+    /* 背景图可以在padding区显示？ */
+    padding-left: 245px;
+}
+
+.foot .foot-con-top ul {
+    float: left;
+    font-size: 11px;
+    color: #fff;
+}
+
+.foot .foot-con-top ul:nth-child(1) {
+    margin-right: 130px;
+    line-height: 38px;
+    margin-top: 19px;
+}
+
+.foot .foot-con-top ul:nth-child(2) {
+    margin-right: 120px;
+    line-height: 20px;
+    margin-top: 28px;
+}
+
+.foot .foot-con-top ul:nth-child(2) img {
+    width: 38px;
+    height: 38px;
+    margin: 6px 0 13px 0;
+}
+
+.foot .foot-con-top ul:nth-child(3) {
+    line-height: 29px;
+}
+
+.foot .foot-con-top ul:nth-child(3) li:nth-child(1) {
+    line-height: 31px;
+    margin-top: 22px;
+}
+
+
+/* 二维码显示 */
+
+.foot .foot-con-top ul:nth-child(2) {
+    position: relative;
+}
+
+.foot .foot-con-top ul:nth-child(2) #img1 {
+    width: 75px;
+    height: 64px;
+    position: absolute;
+    top: 0;
+    left: 68px;
+    padding: 5px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.foot .foot-con-top ul:nth-child(2) #img1 img {
+    margin: 0;
+}
+
+.foot .foot-con-top ul:nth-child(2) #img2 {
+    width: 75px;
+    height: 64px;
+    position: absolute;
+    top: 94px;
+    left: 68px;
+    padding: 5px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.foot .foot-con-top ul:nth-child(2) #img2 img {
+    margin: 0;
+}
+
+.foot .foot-con-top ul:nth-child(2) #img1 img,
+.foot .foot-con-top ul:nth-child(2) #img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 底部下 */
+
+.foot .foot-con-bottom {
+    height: 90px;
+    /* background-color: silver; */
+    overflow: hidden;
+}
+
+.foot .foot-con-bottom a {
+    color: #fff;
+}
+
+.foot .foot-con-bottom ul {
+    height: 22px;
+    /* width: 900px; */
+    font-size: 10px;
+    margin-left: 210px;
+    margin-top: 9px;
+    /* padding区可以显示背景图 */
+    padding-left: 15px;
+    background: url(../IMG/foot3.png) no-repeat 0 4px;
+    background-size: 13px 15px;
+}
+
+.foot .foot-con-bottom ul li {
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin-right: 16px;
+}
+
+.foot .foot-con-bottom ul li:nth-child(1) span:nth-child(2) {
+    margin: 0 2px;
+}
+
+.foot .foot-con-bottom ul li span {
+    color: #fff;
+    margin: 0 10px;
+}
+
+.foot .foot-con-bottom p {
+    font-size: 9px;
+    line-height: 26px;
+    color: #fff;
+}
